@@ -1,0 +1,20 @@
+{
+  "name": "bot-wa-venom",
+  "version": "0.0.1",
+  "description": "Chatbot WA menggunakan VENOM-BOT",
+  "main": "index.mjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "n": "nodemon ./notion/Chats.mjs"
+  },
+  "keywords": [
+    "chatbot",
+    "wa"
+  ],
+  "author": "Kaesa Lyrih",
+  "license": "MIT",
+  "dependencies": {
+    "@notionhq/client": "^0.4.13",
+    "venom-bot": "^4.0.5"
+  }
+}
