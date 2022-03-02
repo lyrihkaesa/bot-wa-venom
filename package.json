@@ -5,7 +5,12 @@
   "main": "index.mjs",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "n": "nodemon ./notion/Chats.mjs"
+    "chat": "nodemon ./notion/Chats.mjs",
+    "user": "nodemon ./notion/Users.mjs",
+    "grup": "nodemon ./notion/Groups.mjs",
+    "notion": "nodemon ./notion/KaesaNotion.mjs",
+    "krs": "nodemon ./notion/KrsSemester04.mjs",
+    "dev": "nodemon --experimental-json-modules index.mjs"
   },
   "keywords": [
     "chatbot",
